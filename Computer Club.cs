@@ -4,6 +4,7 @@ class Test
 {
     static void Main()
     {
+        Console.WriteLine("Change");
         ComputerClub computerClub = new ComputerClub(5);
         computerClub.Work();
     }
